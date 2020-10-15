@@ -1,16 +1,18 @@
 {
     "name": "argentcrusade/selectel-cloud-storage",
     "description": "Selectel Cloud Storage API",
-    "keywords": ["selectel"],
+    "keywords": [
+        "selectel"
+    ],
     "homepage": "https://github.com/argentcrusade/selectel-cloud-storage",
     "license": "MIT",
     "require": {
         "php": ">=5.6",
-        "guzzlehttp/guzzle": "^6.2"
+        "guzzlehttp/guzzle": "^7.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~5.0",
-        "mockery/mockery": "~0.9"
+        "mockery/mockery": "~0.9",
+        "phpunit/phpunit": "~5.0"
     },
     "autoload": {
         "psr-4": {
